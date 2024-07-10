@@ -1,0 +1,45 @@
+poem {
+  title: "Mystical Journey";
+  author: "Jane Doe";
+
+  variables {
+    path_chosen: false;
+    courage: false;
+  }
+
+  stanza {
+    line {
+      text: "At the fork, you must choose your way.";
+      on: click {
+        set_variable: { path_chosen: true; }
+      }
+    }
+    line {
+      text: "To the left, courage awaits.";
+      on: click {
+        set_variable: { courage: true; }
+      }
+    }
+    line {
+      text: "To the right, wisdom prevails.";
+    }
+  }
+
+  stanza {
+    line {
+      text: "You walk the path of courage.";
+      on: display {
+        if: { condition: courage; }
+      }
+    }
+    line {
+      text: "You walk the path of wisdom.";
+      on: display {
+        if: { condition: !courage; }
+      }
+    }
+    line {
+      text: "The choice has been made.";
+    }
+  }
+}

@@ -1,0 +1,2 @@
+1. Implement additional event types and actions (e.g., mouseover, double click).
+2. Develop a more user-friendly IDE for writing and previewing Interpoem code.
