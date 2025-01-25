@@ -1,0 +1,3 @@
+The {hover:wind | sound(whoosh.mp3)} whispers through the 
+{auto:leaves | pause(1000), image(leaves_falling.gif)}, 
+carrying secrets from the {hover:mountains | image(mountains.jpg)}.

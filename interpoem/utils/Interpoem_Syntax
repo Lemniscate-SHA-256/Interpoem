@@ -1,0 +1,4 @@
+{trigger:word | action1(parm), action2(param), ...}
+
+{hover:leaf | pause(2000), image(forest.jpg), sound(wind.mp3)}
+
